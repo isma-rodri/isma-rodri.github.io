@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form action="http://ncoge.com/phps/formulario.php" method="post">
+        nombre: <input type="text" name="minombre" value="">
+        password: <input type="password" name="contraseña" id="" value="">
+        <br>
+         <input type="submit" name="" value="enviar">
+       <br>
+       sexo 
+         <input type="radio" name="sexo" value="hombre" checked="checked" /> hombre
+         <input type="radio" name="sexo" value="mujer" /> mujer
+         <br>
+         fichero adjunto: <input type="file" name="adjunto" />
+         <label for="so">Sistema operativo</label> <br/>
+         <select id="so" name="so">
+          <option value="" selected="selected">- selecciona -</option>
+          <option value="windows">Windows</option>
+          <option value="mac">Mac</option>
+          <option value="linux">Linux</option>
+          <option value="otro">Otro</option>
+         </select>
+         CGFS. DESARROLLO DE APLICACIONES WEB 2.25
+         LENGUAJES DE MARCAS UD02. HTML (III)
+         <label for="so2">Sistema operativo</label> <br/>
+         <select id="so2" name="so2" size="5">
+          <option value="windows" selected="selected">Windows</option>
+          <option value="mac">Mac</option>
+          <option value="linux">Linux</option>
+          <option value="otro">Otro</option>
+         </select>
+         <label for="so3">Sistema operativo</label> <br/>
+         <select id="so3" name="so3" size="5" multiple="multiple">
+          <option value="windows" selected="selected">Windows</option>
+          <option value="mac">Mac</option>
+          <option value="linux">Linux</option>
+          <option value="otro">Otro</option>
+         </select>
+         
+             </fieldset>
+             <input type="submit" name=" enviar" value="guardar cambios"> 
+             <input type="reset" name="limpiar" value="borrar datos">
+         
+             </form>
+         
+    </form>
+</body>
+</html>
