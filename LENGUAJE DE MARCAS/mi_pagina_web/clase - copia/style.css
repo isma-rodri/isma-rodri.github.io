@@ -1,0 +1,21 @@
+.madrastra {
+    color: orangered;
+    font-size: 6em;
+}
+.espejo {
+    color: orchid;
+}
+body{
+    background-color: black;
+}
+p{
+    color: aquamarine;
+}
+
+p span{
+    color: brown;
+}
+
+p * span{
+    color: green;
+}

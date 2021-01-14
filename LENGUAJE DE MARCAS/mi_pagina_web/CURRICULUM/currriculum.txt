@@ -1,0 +1,19 @@
+<html>
+	<head>
+<title>Curriculum ismael</title>
+	</head>
+<body> 
+<div align="center">
+ <u>CURRICULUM VITAE </u>
+</div>
+<div>
+<h3> <u><b>DATOS PERSONALES</b> </u></h3>
+<p> nombre: ismael</P>
+<p> apellidos: Rodriguez zair </p>
+<p> edad: 19 años</p>
+<p> domicilio: Calle musico barbieri </p>
+<p> telefono: 605508502 </p>
+<p> email: ismaelrodriguezzair@gmail.com </p>   
+</div>
+</body>
+</html>
