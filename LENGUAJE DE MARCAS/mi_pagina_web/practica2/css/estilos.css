@@ -1,0 +1,117 @@
+*{
+
+}
+
+body {
+ background-color:lightgray;
+}
+
+h1 {
+background-color: lightgreen;
+border-bottom: 5px  solid black;
+text-align: center;
+margin-top: -0.5%;
+}
+
+img {
+    border: solid 6px red;
+    margin-right: 60px;
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+p {
+
+}
+
+#header {
+    background-color: lightgreen;
+
+}
+
+#content{
+  
+}
+
+#text {
+    text-shadow: 1px  ;
+    width: 90%;
+    text-indent: 40px;
+
+}
+
+#text p {
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: darkorange;
+
+}
+
+#text p:first-child {
+    border: 3px dashed black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 10px;
+    background-color: springgreen;
+
+}
+
+#text p:last-child {
+    border: 3px dashed black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 10px;
+    background-color: darkorange;
+
+}
+
+#menu {
+    margin-left: 500px;
+
+}
+
+#menu a{
+float: center;
+}
+
+
+#menu li{
+    border-left: solid 5px red;
+    display: inline;
+
+
+}
+
+#menu li a:hover{
+    background-color: red;
+
+}
+
+#footer{
+background-color: purple;
+text-align: center;
+border-top: solid blue;
+}
+
+#footer a{
+}
+
+#footer a:hover{
+
+}
+#image {
+text-align: right;
+width: 90%;
+
+}
+
+@media all and (max-width: 500px) {
+
+}
