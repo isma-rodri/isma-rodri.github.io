@@ -1,0 +1,382 @@
+*{
+  margin: 0px auto;
+}
+
+body {
+  /* 
+  6: Hay que fijar el fondo de la pagina
+  y hacer que ocupe toda la pantalla con cover
+  */
+
+  /* 1: */
+  /* 2: */
+  /* 3: */
+  /* 4: */
+  /* 5: */
+  background: url('../images/ferrari.jpg');
+  background-repeat: no-repeat;
+  background-position: center 20px;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+img {  
+  margin: 10px;
+}
+
+ul {
+  color: white;
+}
+
+.imageLeft {
+  /*
+  1: la imagen debe aparecer a la izquierda y rodeada de texto por la derecha
+  */
+  /* 1: */
+  float: left;
+
+  border: dashed 5px white;
+  margin-right: 10px;
+    -webkit-border-radius: 30px 30px 30px 30px ;  /* Safari  */
+  -moz-border-radius: 30px 30px 30px 30px ;     /* Firefox */
+  border-radius: 30px 30px 30px 30px ;     /* Firefox */
+}
+
+.imageRight {
+  /*
+  2: la imagen debe aparecer a la derecha y rodeada de texto por la izquierda
+  */
+  /* 1: */
+  float: right;
+  border: dashed 5px white;
+  margin-left: 10px;
+    -webkit-border-radius: 30px 30px 30px 30px ;  /* Safari  */
+  -moz-border-radius: 30px 30px 30px 30px ;     /* Firefox */
+  border-radius: 30px 30px 30px 30px ;     /* Firefox */
+}
+
+
+#main {
+  /*
+  3: La zona principal debe ocupar el 90% del espacio y estar a la izquierda
+  */
+  /* 1: */
+  /* 2: */
+  width: 80%;
+  float: left;
+  border-right: 1px dashed white;
+  color: #AEC0B1;
+}
+
+#rightNav {
+  /*
+  4: El menu debe aparecer centrado
+  */
+  /* 1: */  
+  color: #AEC0B1;
+  background-color: #404040;
+  float:right;
+  width: 15%;
+
+}
+
+#rightNav li{
+  color: #AEC0B1;
+  list-style:none; 
+}
+
+#rightNav img:hover{
+  color: #AEC0B1;
+  list-style:none; 
+  border-bottom: solid 5px #FF9900;
+  margin-bottom: 5px;
+
+}
+
+
+#header {
+  /* 
+  5: haz el fondo transparente para que se vea la imagen de detras
+  Hay que poner una imagen detras del texto, que no se repita y a la izquierda en X y centrado en Y
+  */
+
+  /* 1: */
+  /* 2: */
+  /* 3: */
+  /* 4: */
+  text-align: left;
+  border-bottom: 5px dashed white;
+  color: white;
+  height: 310px;
+  font-size: xx-large;
+  padding-left: 150px;
+  padding-top: 50px;
+  text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+  background: url('../images/tatoo-logo3.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+
+}
+
+#header p{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#content{
+  background-color: #404040;
+  width: 100%;
+overflow: auto; 
+ /* 
+  7: Si hay elementos flotantes tengo que hacer el tamaño que la capa ocupe todo
+  */
+  /* 1: */
+  
+}
+
+#menu {
+  /*  
+  8: Tengo que poner el menu en la parte superior y fijarlo
+  */
+  /*1:*/
+  /*2:*/
+  /*3:*/
+  top:0px;
+  position: fixed;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  background-color: #097054;
+  border: 1px solid #FF9900;
+  border-top: 2px dashed white;
+  border-bottom: 2px dashed white;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2em;
+}
+
+#menu a{
+  color: white;
+  text-decoration: none;
+}
+
+#menu li{
+  /*
+  9: El menu debe ocupar solo una linea
+  */
+  /* 1: */
+  display: inline-block;
+  padding-left: 5px;  
+}
+
+#menu li a:hover{
+  /* 
+  10: aL pasar el raton encima del enlace debe aparecer un subrayado naranja
+  */
+  /* 1: */
+  border-bottom: solid 5px #FF9900;
+
+  
+}
+
+#footer{
+  /*
+  11: Tengo que dejar fijo el pie de pagina en la parte inferior
+  */
+  /*1:*/
+  /*2:*/
+  /*3:*/
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #097054;
+  text-align: center;
+  color: white;
+  border-top: 2px dashed white;
+  clear: both;
+  margin: 0px;
+
+}
+
+#footer a{
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover{
+  /* 
+  12: Al pasar el raton encima del enlace debe aparecer un subrayado naranja encima
+  */
+  /* 1: */
+  border-top: solid 5px #FF9900;
+  text-decoration: none;
+
+}
+
+#image {
+  text-align: right;
+  margin-right: 60px;
+}
+
+#textCookie {
+  text-align: center;
+}
+
+#cookieEU {
+  /*
+  13: LA capa de las cookies debe aparecer en el centro de la pantalla y moverse con el desplazamiento de la pagina
+  */
+  /* 1: */
+  /* 2: */
+  /* 3: */
+  /* 4: */
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  right: 15%;
+  text-align: center;
+  border:2px solid red;
+  background-color: white;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  -webkit-box-shadow: 2px 2px 50px black;
+  -moz-box-shadow: 2px 2px 50px black;
+  box-shadow: 2px 2px 50px black;
+}
+
+.button {
+  	background-color: #097054; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+#one {
+  text-align: justify;
+  background-color: #4D4D4D;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 5%;
+  margin-left: 1%;
+  -webkit-border-radius: 30px 30px 30px 30px ;  /* Safari  */
+  -moz-border-radius: 30px 30px 30px 30px ;     /* Firefox */
+  border-radius: 30px 30px 30px 30px ;     /* Firefox */
+  overflow: scroll;
+  border: 1px dashed black;
+
+}
+
+#two {
+  text-align: justify;
+  overflow: scroll;
+
+  background-color: #4D4D4D;
+  margin-left: 1%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  padding: 10px;
+  -webkit-border-radius: 30px 30px 30px 30px ;  /* Safari  */
+  -moz-border-radius: 30px 30px 30px 30px ;     /* Firefox */
+  border-radius: 30px 30px 30px 30px ;     /* Firefox */
+  border: 1px dashed black;
+}
+
+
+
+@media all and (max-width: 500px) {
+  #rightNav {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px; 
+    padding-left: 0px;
+    border-top: 2px dashed #4D4D4D;
+  }
+
+  .imageLeft{
+    /*
+    14: la imagen debe ocupar todo el espacio sin que se vea texto
+    */
+    /* 1: */
+    text-align: center;
+  }
+
+  .imageRight{
+    /*
+    14: la imagen debe ocupar todo el espacio sin que se vea texto
+    */
+    /* 1: */
+    text-align: center;
+  }
+
+  #header{
+    padding-top:  100px;
+  }
+
+  #rightNav img{
+    /*
+    15: las imagenes se hacen mas pequeñas 
+    */
+    /* 1: */
+    margin: 0px;
+  }
+
+  #rightNav li{
+    /*
+    16: el menu lateral debe ocupar una linea
+    */
+    /* 1: */
+    list-style:none; 
+    display: inline;
+
+
+  }
+  
+  #rightNav img:hover{
+    color: #AEC0B1;
+    list-style:none; 
+    border-bottom: solid 5px #FF9900;
+    margin-bottom: 0px;
+  }
+
+  #main {
+    /*
+    17: la capa principal ocupa todo el ancho
+    */
+    /* 1: */
+    clear: both;
+    width: 100%;
+  }
+  
+  #footer{
+    padding-bottom: 20px;
+  }
+ 
+}
+
